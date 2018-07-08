@@ -1,0 +1,10 @@
+<div class="content">
+    <mat-list>
+      <mat-card *ngFor="let task of tasks">
+        <mat-checkbox [checked]="task.isDone" (change)="taskChecked(task, $event)">
+          {{task.name}}
+        </mat-checkbox>
+      </mat-card>
+      <div #bottom></div>      
+    </mat-list>
+  </div>

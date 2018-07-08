@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+  margin: 0 !important;
+}
+
+
+list-of-tasks {
+  overflow-y: scroll;
+  flex: 1;
+} 
+
+ .container {
+  display: flex;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  min-height: 100vh;
+  max-height: 100vh;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  max-height: 100vh;
+  flex-grow: 1;
+  justify-content: space-around;
+} 

@@ -1,0 +1,22 @@
+
+.head {
+  display: flex;
+  flex-direction: row;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.head mat-chip {
+    color: white;
+    font-weight: bold;
+}
+
+.head .red {
+    background: red;
+}
+
+.head .green {
+    background: yellowgreen;
+}

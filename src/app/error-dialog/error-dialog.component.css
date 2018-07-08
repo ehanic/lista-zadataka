@@ -1,0 +1,14 @@
+.err-content {
+    text-align: center;
+    min-height: 50%;
+}
+
+.err-btn {
+    text-align: center;
+}
+
+.err-btn button{
+    background: #3f51b5;
+    border-radius: 5px;
+    color: white;
+}

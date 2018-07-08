@@ -1,0 +1,14 @@
+<div class="add-new">
+    <form #form="ngForm" class="new-task">
+
+      <mat-form-field class="full-width-limited">
+        <input name="name" matInput [(ngModel)]="task.name" #message="ngModel" maxlength="256" placeholder="Task name" required>
+        <mat-hint align="start" *ngIf="message.errors">
+          <strong>Task must be unique</strong>
+        </mat-hint>
+      </mat-form-field>
+      <button mat-fab class="mat-primary plus-font" [disabled]="!form.valid" (click)="addTask()">+</button>
+    </form>
+    
+
+  </div>

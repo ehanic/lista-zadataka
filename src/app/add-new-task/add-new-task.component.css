@@ -1,0 +1,39 @@
+.new-task {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    float: left;
+  }
+  
+  .full-width-limited {
+    width: 100%;
+  } 
+
+  .add-new {
+    display: flex;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    justify-content: center;
+    border-top: 1px solid gray;
+  }
+  
+   .new-task {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+
+  }
+  
+   .new-task mat-form-field {
+    padding-right: 20px;
+  }
+  
+  .plus-font {
+    font-size: 30px;
+    font-weight: bold;
+  } 
